@@ -28,6 +28,11 @@ StuffToDo=(
     plex
     little-snitch
     swiftbar    
+    raspberry-pi-imager
+    musicbrainz-picard
+    balenaetcher
+    vnc-viewer
+    screens   
  )
 
 TotalSteps=${#StuffToDo[@]}
