@@ -62,7 +62,6 @@ Edit `apps.conf` before running to change this list. One [Installomator label](h
 | **VLC** | Plays essentially any media file |
 | **Plex** | Desktop client for a Plex media server |
 | **Keka** | Opens RAR / 7z / rare archive formats macOS can't |
-| **AltTab** | Windows-style Alt-Tab window switcher with previews |
 | **Hazel** | Automated file & folder rules (watch a folder, act on new files) |
 | **Tailscale** | Mesh VPN — reach your other machines from anywhere |
 | **balenaEtcher** | Flash OS images to USB drives / SD cards |
@@ -78,7 +77,7 @@ Installs Homebrew itself, then these formulae and casks (with `brew shellenv` wi
 - **Languages / runtimes** — `python` (3.13+), `uv` (Astral's fast Python installer + venv manager)
 - **Prompt & fonts** — `oh-my-posh`, `font-meslo-lg-nerd-font`
 - **AI CLIs** — `codex` (OpenAI Codex CLI)
-- **Apps with broken Installomator labels (July 2026)** — `bartender` (menu-bar organizer), `tigervnc` (VNC client)
+- **Apps with no / broken Installomator label** — `dockdoor` (window previews on Dock hover + Alt-Tab switching), `bartender` (menu-bar organizer), `tigervnc` (VNC client)
 - **Media** — `ffmpeg`, `yt-dlp`, `imagemagick`
 - **CLI quality-of-life** — `gh` (GitHub CLI), `jq` / `yq` (JSON/YAML), `ripgrep`, `fd`, `bat`, `eza`, `htop`, `tree`, `wget`, `mas` (Mac App Store CLI)
 
